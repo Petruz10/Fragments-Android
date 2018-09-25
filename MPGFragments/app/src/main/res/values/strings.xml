@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MPG Fragments</string>
+    <string name="result">Result</string>
+    <string name="eco_mode">ECO mode</string>
+    <string name="total_price$">Total price: $</string>
+    <string name="price_per_mile$">Price per mile: $</string>
+</resources>

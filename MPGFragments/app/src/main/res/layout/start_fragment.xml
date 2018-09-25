@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:text="Put in following values to calcualte the cost of driving"/>
+
+    <EditText
+        android:id="@+id/et_milage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter gas milage in MPG"
+        android:inputType="numberDecimal"
+
+        />
+
+    <EditText
+        android:id="@+id/et_gaspriceGallon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter gasprice per gallon"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/et_length"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter length of trip in miles"
+        android:inputType="numberDecimal"
+        />
+
+</LinearLayout>
